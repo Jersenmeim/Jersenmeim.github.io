@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>abc forecast - Preston Idaho</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Jersen Meim">
+		<meta name="description" content="Preston Page Website for Paul Cheney in CIT 230: Web Frontend Development at Brigham Young University-Idaho">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/large.css"/>
+		<link rel="stylesheet" type="text/css" href="css/medium.css"/>
+		<link rel="stylesheet" type="text/css" href="css/small.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="shortcut icon" href="images/logo.jpg">
+	</head>
+	<body>
+		<div id="message"></div>
+		<header>
+			<picture>
+				<img src="images/logo.jpg" alt="The abc forecast logo">
+			</picture>
+			<section class="headings">
+				<h1>abc forecast</h1>
+				<div class="m">a weather forecast just made for you!</div>
+			</section>
+		</header>
+		<nav>
+			<ul class="navigation">
+				<li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="preston.html">Preston</a></li>
+				<li><a href="sodaspring.html">Soda Springs</a></li>
+				<li><a href="fishhaven.html">Fish Haven</a></li>
+				<li><a href="stormcenter.html">Storm Center</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2><span id="place">city</span></h2>
+			<div>	
+				<picture>
+					 <source media="(min-width:1100px)" srcset="images/preston2_1100x700.jpg">
+					 <source media="(min-width:800px) and (max-width:1099px)" srcset="images/preston2_800x500.jpg" >
+					 <source media="(min-width:500px) and (max-width:799px)" srcset="images/preston2_500x300.jpg" >
+					 <source media="(min-width:200px) and (max-width:499px) " srcset="images/preston2_200x100.jpg" >
+					<img src="images/preston2_1100x700.jpg" alt="Preston Image Sample">
+				</picture>
+					<div class="top-left">
+						<p>Weather Summary</p>
+						<p>Currently: <span id="description"> loading</span> </p>
+						<p>Temp: <span id="currentTemp"> </span>°F </p>
+						<p>WindChill: <span id="output"> </span> °F</p>
+						<p>Humidity: <span id="humidity"></span> %</p>
+						<p>Windspeed:<span id="windSpeed">5</span> mph </p>
+					</div>
+			</div>
+			<div>
+				<table>
+					<thead>
+						<tr>
+							<th id="day1">Wed</th>
+							<th id="day2">Thurs</th>
+							<th id="day3">Fri</th>
+							<th id="day4">Sat</th>
+							<th id="day5">Sun</th>
+						</tr>
+					</thead>
+					<tr>
+						<td><img src="images/sun.png" id="weatherimage1"  alt="weather Image 1"></td>
+						<td><img src="images/sun.png" id="weatherimage2" alt="weather Image 2"></td>
+						<td><img src="images/sun.png" id="weatherimage3" alt="weather Image 3"></td>
+						<td><img src="images/sun.png" id="weatherimage4" alt="weather Image 4"></td>
+						<td><img src="images/sun.png" id="weatherimage5" alt="weather Image 5"></td>
+						
+					</tr>
+					<tr>
+						<td><span id="forecastday1" ></span>&deg; F</td>
+						<td><span id="forecastday2" ></span>&deg; F</td>
+						<td><span id="forecastday3" ></span>&deg; F</td>
+						<td><span id="forecastday4" ></span>&deg; F</td>
+						<td><span id="forecastday5" ></span>&deg; F</td>
+						
+					</tr>
+				</table>
+				
+    	
+
+
+				
+			</div>
+			<div class="article">
+				<img src="images/summercamp.jpg" alt="Basket Ball Summer Camp Photo">
+				<h2>Is Your Child Ready for Basketball Camp? </h2>
+				<p>Come and be a part of the best teaching and skill development basketball camp in the Preston Idaho!<br><br>
+				Coach John is an elite basketball instructor and has coached over twenty-one division athletes and ten professional athletes including two current NBA players.<br> <br>Our camp will emphasize fundamentals, skill development, proper shooting mechanics, offensive & defensive techniques and concepts, and most importantly developing the right attitude, character and mental approach to the game.</p>	
+			</div>
+			<div class="contact">
+				<section>
+					<h2>Map</h2>
+					<img src="images/preston-idaho.png" alt="Preston Idaho Map">
+				</section>
+				<section>
+					<h3>&nbsp;The abc forecast</h3>
+					<p><i class="material-icons">near_me</i>12 Main Street <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Preston, Idaho<br><br><i class="material-icons">local_phone</i> 999-655-4527 <br>&nbsp;<i class="material-icons">email</i>&nbsp;abc@forecast.news</p>
+					<ul class="social">
+						<li><a href="https://twitter.com/" target="_blank" ><img src="images/social/twitter.png" alt="Twitter Social Icon"></a></li>
+						<li><a href="https://www.facebook.com/" target="_blank"><img src="images/social/facebook.png" alt="Facebook Social Icon"></a></li>
+						<li><a href="https://www.linkedin.com/" target="_blank"><img src="images/social/linkedin.png" alt="LinkedIn Social Icon"></a></li>
+					</ul>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<p> &copy; The Weather Site | Preston Page | Jersen Meim | <a href="http://api.openweathermap.org/" target="_blank">Open Weather Map</a></p>
+			<p id="datetoday"></p>
+		</footer>
+		<script src="js/lastmodified.js"></script>
+		<script src="js/banner.js"></script>
+		<script src="js/tooglemenu.js"></script>
+		<script src="js/weathernow.js"></script>
+		<script src="js/forecast.js"></script>
+	</body>
+</html>

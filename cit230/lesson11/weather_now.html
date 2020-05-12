@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>abc forecast - Preston Idaho</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Jersen Meim">
+		<meta name="description" content="Preston Page Website for Paul Cheney in CIT 230: Web Frontend Development at Brigham Young University-Idaho">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/large.css"/>
+		<link rel="stylesheet" type="text/css" href="css/medium.css"/>
+		<link rel="stylesheet" type="text/css" href="css/small.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="shortcut icon" href="images/logo.jpg">
+	</head>
+	<body>
+		<div id="message"></div>
+		<header>
+			<picture>
+				<img src="images/logo.jpg" alt="The abc forecast logo">
+			</picture>
+			<section class="headings">
+				<h1>abc forecast</h1>
+				<div class="m">a weather forecast just made for you!</div>
+			</section>
+		</header>
+		<nav>
+			<ul class="navigation">
+				<li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="preston.html">Preston</a></li>
+				<li><a href="sodaspring.html">Soda Springs</a></li>
+				<li><a href="fishhaven.html">Fish Haven</a></li>
+				<li><a href="stormcenter.html">Storm Center</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>Forecast</h2>
+			<h3><span id="place">city</span></h3>
+			<p><span id="currentTemp">00</span>&deg;</p>
+		</main>
+		<footer>
+			<p> &copy; The Weather Site | Preston Page | Jersen Meim</p>
+			<p id="datetoday"></p>
+		</footer>
+		<script src="js/lastmodified.js"></script>
+		<script src="js/banner.js"></script>
+		<script src="js/tooglemenu.js"></script>
+		<script src="js/weathernow.js"></script>
+	</body>
+</html>

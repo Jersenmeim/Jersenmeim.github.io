@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>abc forecast - Preston Idaho</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Jersen Meim">
+		<meta name="description" content="Preston Page Website for Paul Cheney in CIT 230: Web Frontend Development at Brigham Young University-Idaho">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/storm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/medium.css"/>
+		<link rel="stylesheet" type="text/css" href="css/small.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="shortcut icon" href="images/logo.jpg">
+	</head>
+	<body>
+
+		<div id="message"></div>
+		<header>
+			<picture>
+				<img src="images/logo.jpg" alt="The abc forecast logo">
+			</picture>
+			<section class="headings">
+				<h1>abc forecast</h1>
+				<div class="m">a weather forecast just made for you!</div>
+			</section>
+		</header>
+		<nav>
+			<ul class="navigation">
+				<li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="preston.html">Preston</a></li>
+				<li><a href="sodaspring.html">Soda Springs</a></li>
+				<li><a href="fishhaven.html">Fish Haven</a></li>
+				<li  class="active" ><a href="stormcenter.html">Storm Center</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="stormForm">
+
+				<h2>Storm Report</h2>
+				<form method="get" action="thankyou.html">
+
+					
+					<fieldset>
+						<legend>Personal Information</legend>
+						<label>
+							Full Name:<input type="text" name="fullname" placeholder="Full Name" pattern="[A-z\s]{5,}" required>
+						</label>
+						<label>
+							Email:<input type="email" name="email" placeholder="abc@example.com" autocomplete="off">
+						</label>
+						<label>
+							Phone Number:<input type="tel" name="phone" pattern="[0-9]{10}" required placeholder="1234567890">
+						</label >
+						<label>
+							ZIP Code:<input type="number" name="ZIP"  required placeholder="30223" >
+						</label>
+					</fieldset>
+
+
+					<fieldset>
+						<legend>Storm Information</legend>
+						<label>Storm Date:<input type="date" name="date"></label>
+						<label>Storm Type:<input type="text" name="stormtype" list="storm">
+							<datalist id="storm">
+								<option value="Flash Flood"></option>
+								<option value="Hail"></option>
+								<option value="Hurricane"></option>
+								<option value="Thunderstorm"></option>
+								<option value="Tornado"></option>
+							</datalist>
+						</label>
+						
+							<label><span>Storm Severity (1 to 10):</span><br><input type="range" name="severity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="severity">5 </span></label>
+						<label>Storm Region:
+							<select name="region">
+								<option value="select" disabled="disabled" selected="selected">Select Region</option>
+								<option value="Franklin">Franklin</option>
+								<option value="Greenville">Greenville</option>
+								<option value="Springfield">Springfield</option>
+							</select>
+						</label>
+					</fieldset>
+					<fieldset>
+						<legend>Additional Information</legend>
+						<p>Are You In Danger:</p>
+							<label><input type="radio" name="dangerLevel" value="yes"><span class="ymn">Yes</span></label>
+							<label><input type="radio" name="dangerLevel" value="maybe"><span class="ymn">Maybe</span></label>
+							<label><input type="radio" name="dangerLevel" value="no"><span class="ymn">No</span></label>
+						<label>Comments:
+							<textarea name="additionalInfo"></textarea>
+						</label>
+					</fieldset>
+
+					<input type="submit" value="Send" class="submitButton">
+				</form>
+			</div>
+		</main>
+		<footer>
+			<p> &copy; The Weather Site | Preston Page | Jersen Meim</p>
+			<p id="datetoday"></p>
+		</footer>
+		<script src="js/lastmodified.js"></script>
+		<script src="js/banner.js"></script>
+		<script src="js/tooglemenu.js"></script>
+		<script src="js/windchill.js"></script>
+		<script src="js/thankyou.js"></script>
+		 <script src="js/severity.js"></script>
+	</body>
+</html>

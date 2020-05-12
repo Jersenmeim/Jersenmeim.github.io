@@ -1,0 +1,449 @@
+	/* Copyright CIT 230 BYU IDAHO 2019 Jersen Meim */
+	body {font-family: sans-serif;}
+	/* General */
+	.clearfix {overflow: auto;}
+
+	main {margin: 4em 0;}
+
+	#message {
+		text-align: center;
+		padding: 1em;
+		color: red;
+		font-weight: bolder;}
+
+	h1.center {margin: .5em 0 1em 0 ;}
+
+	.all {text-align: center;background: #333333; color: white;padding: 1em;}
+
+
+	ul.navigation a {
+		list-style: none;
+		text-align: left;
+		padding: 0;
+		margin-top:2.5em;}
+
+	.navigation a:hover {
+		color: #a94e9e;
+		font-weight: 700;}
+
+	main picture .banner {text-align: center;max-width: 100%}
+
+	.navigation li:nth-child(7) a {
+		color: #e91752;
+		font-weight: bolder;}
+
+	.bannerinfo{text-align: center; margin: 1em;}
+
+	.manila img{max-width: 100%;}
+
+	.missionary li {
+		list-style-type: none;
+		padding: 1em 1em 1em 0;
+		text-align: left;}
+
+	.one {margin: 1em;}
+
+	.one h2{border-bottom: 2px solid black; text-align: left;}
+
+	.missionary {margin: 0 auto;text-align: left;}
+
+	input, select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;}
+
+	input[type=submit] {
+		background-color: black;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;}
+
+	input[type=submit]:hover {background-color: black; color: gray;}
+
+	.container label{margin: 1em 0;}
+
+	.container input{margin: 1em 0;}
+
+	.center {text-align: center; padding: 3em 0 0 0}
+
+	.input-field input, #messages {margin: 1em 0;}
+
+	div.two {
+		align-items: center;
+		justify-content: center;
+		flex-direction: row-reverse;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		min-height: 200px;}
+
+	.two div {padding: 2em;}
+
+	.active {color: red;font-weight: 700;}
+
+	.navigation a {color:black;}
+
+	iframe {width: 100%;}
+
+	#Location, #RoomType, #subject{margin: 1em 0;}
+
+	.resources {margin: 2em;}
+
+	.contact {text-align: left;}
+
+	.contact a {
+		text-decoration: none;
+		text-align: left;
+		border: 1px solid black;
+		margin:2em 0;
+		padding: .5em;
+		color: black; }
+
+	.contact a:hover {
+		background: black;
+		color: white; }
+
+	.contact h2, .contact h3, .contact h4{
+		font-size: 1em}
+
+	.reserve_p img{max-width: 100%;}
+
+	.hotel-features {
+		color: white;
+	
+		margin: auto;}
+
+	.hotel-features a {
+		color: white;
+		background: black;
+		padding: .5em;
+		margin: 2em 0;
+		border:1px black solid;
+		text-decoration: none;}
+
+	.hotel-features a:hover {
+		color: black;
+		background: white;
+		padding: .5em;
+		text-decoration: none;}
+
+	.temples_center-features {
+		background-color: #201f1f;
+		padding: 2em;}
+
+	.services_center-features {
+		background: #363946;
+		padding: 2em;}
+
+	.missionary_center-features {background-color: #201f1f;
+		padding: 2em;}
+
+	.top-left {
+		padding: 2em;
+		margin: 0;
+		background-color:#19507c;
+		opacity: .80;
+		color:white;}
+
+	section.s1 , section.s2 {position: relative;}
+
+	.index {margin: 1em;}
+
+	.explore {text-align: center;}
+
+	.explore img{max-width: 60%;height: auto;}
+
+	.explore a {
+		
+		text-decoration: none;
+		border: 1px solid black;
+		color: white;
+		background: black;
+		padding: 1em;}
+
+	.explore p {margin: 2em;}
+
+	.navi {
+		padding: 1em;	
+		text-align: center;
+		margin: 1em auto;}
+
+	.navi a {
+		text-decoration: none;
+		padding: 1em;
+		background: black;
+		color: white;
+		text-align: center;
+		margin: 1em auto;}
+
+	.mission {display: grid;text-align: center;}
+
+	.mission img {max-width: 100%;}
+	.mission h2 {font-size: 1em;}
+
+/* Large wiew*/
+
+ .temples div.grid{
+	
+text-align: center;
+	direction: rtl;
+}
+ div:nth-child(2) .grid, div:nth-child(4) .grid {
+ 	direction: ltr;
+ 	
+ 	
+ }
+
+
+	 .pic img{max-width: 100%;}
+
+	 .grid{text-align: center;color: white;}
+
+  		.pic {background: #201F1F;}
+  		.info {background: #363946;} 
+		
+
+	footer {
+		text-align: center;
+		background: #f2f2f2;
+		color: #616161;
+		padding: 1em;
+		margin: 0;
+	}
+	footer a {color: #616161; text-decoration:none;}
+
+	/*Weather*/
+
+	.weather {
+		color: black;
+  		text-align: center;}
+
+		
+
+@media all and (min-width: 1237px)
+{	
+	.temples div.grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr}
+		.info, .pic {padding: 1em}
+	.mission {grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+	.hotel-features {
+	display: grid;
+	grid-template-columns: auto auto auto}
+	section.s1 img, section.s2 img {
+	max-width: 100%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;}
+
+	.manila{margin: 1em;}
+
+	div.reserve {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0;}
+
+	.reserve_p img {margin: 0 0 0 -4em;}
+
+	.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width:70%;
+	margin: 0 auto}
+
+	div.column {
+	display: grid;
+	grid-template-columns: 1fr 1fr;}
+
+
+
+	.contact-form {
+	width:40%;
+	margin: 0 auto;}
+
+	/*Temple*/
+
+	.temples img {
+	width: 100%;
+	height: auto;} 
+
+	/*Navigation*/
+
+	.nav picture img {
+	max-width: 500px;
+	height: 100px;
+	float: left;
+	border-right: 2px solid black;}
+
+	.navigation { display: flex;}
+
+	.navigation li:first-child {display: none;}
+
+	.navigation li {
+	display: block;
+	flex: 1 1 10%;}
+
+	.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;}
+
+	.flex {
+	display: flex;
+	margin: 0 auto;}
+
+	div.two {display: flex;}
+	
+	.top-left{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.25vmax;}
+
+
+	.weather {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+
+
+}
+
+
+/* Medium wiew*/
+
+@media all and (min-width: 768px) and (max-width: 1236px) 
+{	.info, .pic{padding: 1em}
+	.temples div.grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;}
+	.mission {grid-template-columns: 1fr 1fr;}
+	
+	.hotel-features {
+	display: grid;
+	grid-template-columns: 1fr 1fr;}
+
+	.missionary_center-features {
+	text-align: center;
+	grid-column: span 2;}
+
+	div.flex{
+	display: flex;
+	margin: 0 auto;}
+
+	section.s1 img, section.s2 img {
+	max-width: 100%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;}
+
+	div.column {
+	display: grid;
+	grid-template-columns: 1fr 1fr;}
+
+	.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 1.50vmax;}
+
+	div.two {display: flex;}
+
+	.container {
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 20px;
+		width:70%;
+		margin: 0 auto;}
+	.weather{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		text-align: center;}
+	.contact-form {
+		width:70%;
+		margin: 0 auto;}
+
+	.navigation li:first-child {display: block;}
+	.navigation li {display: none;}
+
+	.nav picture img {
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 70%;
+		text-align: center;
+		margin: auto;
+		min-height: 200px;
+
+		align-items: center;}
+
+	.navigation a {
+		display: block;
+		color: black;
+		padding: 0.75rem;
+		text-align: left;
+		text-decoration: none;}
+		.temples div.grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;}
+			.responsive li {display: block;}
+}
+
+/* Small wiew*/
+
+@media all and (min-width: 200px) and (max-width: 767px) 
+{
+	.mission {grid-template-columns: 1fr;}
+	.top-left{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 2.2vmin;}
+
+	.weather{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		text-align: center;}
+
+	.navigation li:first-child {display: block;}
+
+	.navigation li {display: none;}
+
+	.nav picture img {max-width: 100%;float: none;}
+
+	.navigation a {
+	display: block;
+	color: black;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;}
+
+	.responsive li {display: block;}
+
+	.container {margin: 2em;}
+
+	.contact-form {margin: 2em;}
+
+	section.s1 img, section.s2 img {max-width: 100%;}
+	
+	.weather {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.info, .pic {
+		padding: 1em;
+	}
+	}
+
+/* Copyright CIT 230 BYU IDAHO 2019 Jersen Meim */

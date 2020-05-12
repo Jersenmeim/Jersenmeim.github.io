@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em) {
+	h1 {
+font-size: 2.5rem;
+}
+
+h1 {
+font-size: 1.5rem;
+}
+
+header, footer {
+  border-radius: 10px;
+}
+header img{
+  float: right;
+
+}
+}
+@media only screen and (max-width: 480px)
+{
+	.l2main {
+  grid-template-columns: 1fr;
+}
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>ABC forecast - Fish haven Idaho</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Jersen Meim">
+		<meta name="description" content="Fish haven Page Website for Paul Cheney in CIT 230: Web Frontend Development at Brigham Young University-Idaho">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/large.css"/>
+		<link rel="stylesheet" type="text/css" href="css/medium.css"/>
+		<link rel="stylesheet" type="text/css" href="css/small.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="shortcut icon" href="images/logo.png">
+	</head>
+	<body>
+		<div id="message"></div>
+		<header>
+			<picture>
+				<img src="images/logo.png" alt="The ABC forecast logo">
+			</picture>
+			<section class="headings">
+				<h1>ABC forecast</h1>
+				<div class="m">a weather forecast just made for you!</div>
+			</section>
+		</header>
+		<nav>
+			<ul class="navigation">
+				<li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="preston.html">Preston</a></li>
+				<li><a href="sodaspring.html">Soda Springs</a></li>
+				<li class="active"><a href="fishaven.html">Fish Haven</a></li>
+				<li><a href="stormcenter.html">Storm Center</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2><span id="place">city</span></h2>
+			<div>	
+				<picture>
+					 <source media="(min-width:1100px)" srcset="images/fishhaven1100x700.jpg">
+					 <source media="(min-width:800px) and (max-width:1099px)" srcset="images/fishhaven800x500.jpg" >
+					 <source media="(min-width:500px) and (max-width:799px)" srcset="images/fishhaven500x300.jpg" >
+					 <source media="(min-width:200px) and (max-width:499px) " srcset="images/fishhaven200x100.jpg" >
+					<img src="images/fishhaven1100x700.jpg" alt="fishhaven Image Sample">
+				</picture>
+					<div class="top-left">
+						<p>Weather Summary</p>
+						<p>Currently: <span id="description"> loading</span> </p>
+						<p>Temp: <span id="currentTemp"> </span>°F </p>
+						<p>WindChill: <span id="output"> </span> °F</p>
+						<p>Humidity: <span id="humidity"></span> %</p>
+						<p>Windspeed:<span id="windSpeed">5</span> mph </p>
+					</div>
+			</div>
+			<div>
+				<table>
+					<thead>
+						<tr>
+							<th id="day1">Wed</th>
+							<th id="day2">Thurs</th>
+							<th id="day3">Fri</th>
+							<th id="day4">Sat</th>
+							<th id="day5">Sun</th>
+						</tr>
+					</thead>
+					<tr>
+						<td><img src="images/sun.png" id="weatherimage1"  alt="weather Image 1"></td>
+						<td><img src="images/sun.png" id="weatherimage2" alt="weather Image 2"></td>
+						<td><img src="images/sun.png" id="weatherimage3" alt="weather Image 3"></td>
+						<td><img src="images/sun.png" id="weatherimage4" alt="weather Image 4"></td>
+						<td><img src="images/sun.png" id="weatherimage5" alt="weather Image 5"></td>
+						
+					</tr>
+					<tr>
+						<td><span id="forecastday1" ></span>&deg; F</td>
+						<td><span id="forecastday2" ></span>&deg; F</td>
+						<td><span id="forecastday3" ></span>&deg; F</td>
+						<td><span id="forecastday4" ></span>&deg; F</td>
+						<td><span id="forecastday5" ></span>&deg; F</td>
+						
+					</tr>
+				</table>
+				
+    	<div class="events"></div>
+
+
+				
+			</div>
+			<div class="article">
+				<img src="images/fishing.jpg" alt="fishing sample Photo">
+				<h2>Fishing Day </h2>
+				<p>Fishing Day is a great day to take time from your daily routine to find a stream, a lake or pond, bait your hook, cast your line and catch a fish or two (or ten).<br><br> The same thing can happen with any other activity, but with fishing – once you’re in the motion of things, you start acting in the present and usually start to talk about the things that matter most with the people that matter the most.<br><br>All anglers, residents and nonresidents, can celebrate the day by fishing Bear lake without a license! If you’ve never been fishing, this is a great day to learn. All other fishing rules and regulations including creel limits, opening dates and tackle restrictions remain in effect</p>	
+			</div>
+			<div class="contact">
+				<section>
+					<h2>Map</h2>
+					<img src="images/fishhavenmap.png" alt="fishhaven Idaho Map">
+				</section>
+				<section>
+					<h3>&nbsp;The ABC forecast</h3>
+					<p><i class="material-icons">near_me</i> 10 Main Street <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fish Haven, Idaho<br><br><i class="material-icons">local_phone</i> 999-655-4527 <br>&nbsp;<i class="material-icons">email</i>&nbsp;ABC@forecast.news</p>
+					<ul class="social">
+						<li><a href="https://twitter.com/" target="_blank" ><img src="images/social/twitter.png" alt="Twitter Social Icon"></a></li>
+						<li><a href="https://www.facebook.com/" target="_blank"><img src="images/social/facebook.png" alt="Facebook Social Icon"></a></li>
+						<li><a href="https://www.linkedin.com/" target="_blank"><img src="images/social/linkedin.png" alt="LinkedIn Social Icon"></a></li>
+					</ul>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<p> &copy; The Weather Site | Fish Haven Page | Jersen Meim <a href="http://api.openweathermap.org/" target="_blank">Terms of Use - Open Weather Map</a></p>
+			<p id="datetoday"></p>
+		</footer>
+		<script src="js/lastmodified.js"></script>
+		<script src="js/banner.js"></script>
+		<script src="js/tooglemenu.js"></script>
+		<script src="js/weathernow-f.js"></script>
+		<script src="js/forecast-f.js"></script>
+		<script src="js/events-f.js"></script>
+	</body>
+</html>

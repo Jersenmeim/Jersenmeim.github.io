@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+body {
+	background: #003263;
+	
+}
+
+main {
+	color: white;
+}
+
+.jumbotron {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+}
+
+
+.card{
+     position: relative;
+	width: 100%;
+	bottom: 0;/* Footer height */
+}
+
+.carousel-control-prev-, .carousel-control-next
+{
+	color:red;
+}

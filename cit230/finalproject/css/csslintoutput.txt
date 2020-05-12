@@ -1,0 +1,367 @@
+
+
+csslint: There are 73 problems in C:\Users\Jersen_2\Documents\BYU\CIT-230\jersenmeim.github.io\final_termproject_jersenmeim_2019\css\main.css.
+
+main.css
+1: warning at line 8, col 2
+Don't use IDs in selectors.
+	#message {
+
+main.css
+2: warning at line 8, col 2
+Rule doesn't have all its properties in alphabetical order.
+	#message {
+
+main.css
+3: warning at line 16, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.all {text-align: center;background: #333333; color: white;padding: 1em;}
+
+main.css
+4: warning at line 19, col 2
+Rule doesn't have all its properties in alphabetical order.
+	ul.navigation a {
+
+main.css
+5: warning at line 29, col 2
+Rule doesn't have all its properties in alphabetical order.
+	main picture .banner {text-align: center;max-width: 100%}
+
+main.css
+6: warning at line 35, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.bannerinfo{text-align: center; margin: 1em;}
+
+main.css
+7: warning at line 46, col 7
+Heading (h2) should not be qualified.
+	.one h2{border-bottom: 2px solid black; text-align: left;}
+
+main.css
+8: warning at line 50, col 2
+Rule doesn't have all its properties in alphabetical order.
+	input, select, textarea {
+
+main.css
+9: warning at line 55, col 3
+The box-sizing property isn't supported in IE6 and IE7.
+		box-sizing: border-box;}
+
+main.css
+10: warning at line 57, col 2
+Rule doesn't have all its properties in alphabetical order.
+	input[type=submit] {
+
+main.css
+11: warning at line 71, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.center {text-align: center; padding: 3em 0 0 0}
+
+main.css
+12: warning at line 73, col 22
+Don't use IDs in selectors.
+	.input-field input, #messages {margin: 1em 0;}
+
+main.css
+13: warning at line 75, col 2
+Rule doesn't have all its properties in alphabetical order.
+	div.two {
+
+main.css
+14: warning at line 92, col 2
+Don't use IDs in selectors.
+	#Location, #RoomType, #subject{margin: 1em 0;}
+
+main.css
+15: warning at line 92, col 13
+Don't use IDs in selectors.
+	#Location, #RoomType, #subject{margin: 1em 0;}
+
+main.css
+16: warning at line 92, col 24
+Don't use IDs in selectors.
+	#Location, #RoomType, #subject{margin: 1em 0;}
+
+main.css
+17: warning at line 98, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.contact a {
+
+main.css
+18: warning at line 110, col 11
+Heading (h2) should not be qualified.
+	.contact h2, .contact h3, .contact h4{
+
+main.css
+19: warning at line 110, col 24
+Heading (h3) should not be qualified.
+	.contact h2, .contact h3, .contact h4{
+
+main.css
+20: warning at line 110, col 37
+Heading (h4) should not be qualified.
+	.contact h2, .contact h3, .contact h4{
+
+main.css
+21: warning at line 110, col 11
+Heading (h2) has already been defined.
+	.contact h2, .contact h3, .contact h4{
+
+main.css
+22: warning at line 120, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.hotel-features a {
+
+main.css
+23: warning at line 128, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.hotel-features a:hover {
+
+main.css
+24: warning at line 145, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.top-left {
+
+main.css
+25: warning at line 158, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.explore img{max-width: 60%;height: auto;}
+
+main.css
+26: warning at line 160, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.explore a {
+
+main.css
+27: warning at line 170, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.navi {
+
+main.css
+28: warning at line 175, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.navi a {
+
+main.css
+29: warning at line 186, col 11
+Heading (h2) should not be qualified.
+	.mission h2 {font-size: 1em;}
+
+main.css
+30: warning at line 186, col 11
+Heading (h2) has already been defined.
+	.mission h2 {font-size: 1em;}
+
+main.css
+31: warning at line 190, col 2
+Rule doesn't have all its properties in alphabetical order.
+ .temples div.grid{
+
+main.css
+32: warning at line 204, col 3
+Rule doesn't have all its properties in alphabetical order.
+	 .grid{text-align: center;color: white;}
+
+main.css
+33: warning at line 210, col 2
+Rule doesn't have all its properties in alphabetical order.
+	footer {
+
+main.css
+34: error at line 231, col 26
+Unexpected token '1fr' at line 231, col 26.
+		grid-template-columns: 1fr 1fr}
+
+main.css
+35: error at line 231, col 34
+Expected RBRACE at line 231, col 34.
+		grid-template-columns: 1fr 1fr}
+
+main.css
+36: error at line 233, col 35
+Unexpected token '1fr' at line 233, col 35.
+	.mission {grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+main.css
+37: warning at line 233, col 2
+Rule is empty.
+	.mission {grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+main.css
+38: warning at line 238, col 2
+Rule doesn't have all its properties in alphabetical order.
+	section.s1 img, section.s2 img {
+
+main.css
+39: warning at line 246, col 2
+Element (div.reserve) is overqualified, just use .reserve without element name.
+	div.reserve {
+
+main.css
+40: error at line 248, col 25
+Unexpected token '1fr' at line 248, col 25.
+	grid-template-columns: 1fr 1fr;
+
+main.css
+41: warning at line 253, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.container {
+
+main.css
+42: warning at line 256, col 2
+Using width with padding can sometimes make elements larger than you expect.
+	padding: 20px;
+
+main.css
+43: error at line 262, col 25
+Unexpected token '1fr' at line 262, col 25.
+	grid-template-columns: 1fr 1fr;}
+
+main.css
+44: warning at line 266, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.contact-form {
+
+main.css
+45: warning at line 272, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.temples img {
+
+main.css
+46: warning at line 278, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.nav picture img {
+
+main.css
+47: warning at line 304, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.top-left{
+
+main.css
+48: error at line 314, col 26
+Unexpected token '1fr' at line 314, col 26.
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+
+main.css
+49: error at line 319, col 1
+Unexpected token '}' at line 319, col 1.
+}
+
+main.css
+50: error at line 328, col 26
+Unexpected token '1fr' at line 328, col 26.
+		grid-template-columns: 1fr 1fr;}
+
+main.css
+51: error at line 329, col 35
+Unexpected token '1fr' at line 329, col 35.
+	.mission {grid-template-columns: 1fr 1fr;}
+
+main.css
+52: warning at line 329, col 2
+Rule is empty.
+	.mission {grid-template-columns: 1fr 1fr;}
+
+main.css
+53: error at line 333, col 25
+Unexpected token '1fr' at line 333, col 25.
+	grid-template-columns: 1fr 1fr;}
+
+main.css
+54: warning at line 335, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.missionary_center-features {
+
+main.css
+55: warning at line 343, col 2
+Rule doesn't have all its properties in alphabetical order.
+	section.s1 img, section.s2 img {
+
+main.css
+56: error at line 351, col 25
+Unexpected token '1fr' at line 351, col 25.
+	grid-template-columns: 1fr 1fr;}
+
+main.css
+57: warning at line 353, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.top-left {
+
+main.css
+58: warning at line 361, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.container {
+
+main.css
+59: warning at line 364, col 3
+Using width with padding can sometimes make elements larger than you expect.
+		padding: 20px;
+
+main.css
+60: error at line 369, col 26
+Unexpected token '1fr' at line 369, col 26.
+		grid-template-columns: 1fr 1fr;
+
+main.css
+61: warning at line 371, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.contact-form {
+
+main.css
+62: warning at line 378, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.nav picture img {
+
+main.css
+63: warning at line 389, col 3
+Duplicate property 'align-items' found.
+		align-items: center;}
+
+main.css
+64: warning at line 391, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.navigation a {
+
+main.css
+65: error at line 399, col 26
+Unexpected token '1fr' at line 399, col 26.
+		grid-template-columns: 1fr 1fr;}
+
+main.css
+66: error at line 407, col 35
+Unexpected token '1fr' at line 407, col 35.
+	.mission {grid-template-columns: 1fr;}
+
+main.css
+67: warning at line 407, col 2
+Rule is empty.
+	.mission {grid-template-columns: 1fr;}
+
+main.css
+68: warning at line 408, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.top-left{
+
+main.css
+69: error at line 416, col 26
+Unexpected token '1fr' at line 416, col 26.
+		grid-template-columns: 1fr 1fr;
+
+main.css
+70: warning at line 423, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.nav picture img {max-width: 100%;float: none;}
+
+main.css
+71: warning at line 425, col 2
+Rule doesn't have all its properties in alphabetical order.
+	.navigation a {
+
+main.css
+72: error at line 442, col 26
+Unexpected token '1fr' at line 442, col 26.
+		grid-template-columns: 1fr;
+
+main.css
+73: warning
+You have 3 h2s defined in this stylesheet.
