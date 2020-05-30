@@ -1,0 +1,77 @@
+
+
+body{
+    //background-color: #75a3b7;
+
+   background-color: #8e2121;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+p , label {
+   
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.title  {
+    font-size: 40px;
+    margin: 2em auto 0 auto;
+     text-align: center;
+}
+.date {
+    font-size: 20px;
+    text-align: center;
+}
+.wrapper{
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto 0 auto;
+
+    input, select{
+        padding: 8px 14px;
+        letter-spacing: 2px;
+        margin: 10px 0;
+    }
+
+    select{
+        
+        option{
+             padding: 8px 14px;
+        }
+    }
+
+    form{
+        div{
+            margin: 1em 0;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+   
+    .title {
+        font-size: 20px;
+        margin: 2em auto 0 auto;
+        text-align: center;
+    }
+
+    .date {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .wrapper {
+     width: 200px;
+    }
+
+}
