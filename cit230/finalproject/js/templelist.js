@@ -1,4 +1,4 @@
-var requestURL = 'https://jersenmeim.github.io/final_termproject_jersenmeim_2019/temples.json';
+var requestURL = 'https://jersenmeim.github.io/cit230/finalproject/json/temples.json';
 fetch(requestURL)
 	.then(function (response) {
 	return response.json();
