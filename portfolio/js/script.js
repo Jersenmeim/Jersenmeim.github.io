@@ -1,7 +1,7 @@
 import {
     getData,
     querySelector
-} from 'utilities.js'
+} from './utilities.js'
 
 
 //Selectors
