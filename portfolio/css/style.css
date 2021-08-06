@@ -7,17 +7,21 @@
 }
 
 body {
-  background-color: #fbfbfb;
+  background-color: #b9b8b8;
+}
+
+.contact-info {
+  background-color: #ffffff;
 }
 
 .contact-info .me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -28,21 +32,26 @@ body {
 
 .contact-info .me .image {
   padding: 1%;
-  width: 100%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 10px;
 }
 
 .contact-info .me .image img {
-  width: 15%;
+  width: 100%;
 }
 
 .contact-info .me .info {
+  cursor: -webkit-grab;
+  cursor: grab;
   padding: 1%;
   width: 100%;
   display: -webkit-box;
@@ -60,8 +69,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #000000;
-  color: whitesmoke;
+  color: black;
+  border: solid 1px;
+  border-radius: 10px;
 }
 
 .contact-info .me .info p {
@@ -71,6 +81,10 @@ body {
   letter-spacing: 1px;
 }
 
+.contact-info .me .info p a {
+  text-decoration: none;
+}
+
 h4 {
   display: none;
 }
@@ -78,10 +92,12 @@ h4 {
 .project,
 .skills {
   margin: 50px 0;
+  background-color: #ffffff;
 }
 
 .project {
-  background-color: #ffffff;
+  cursor: -webkit-grab;
+  cursor: grab;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,7 +110,6 @@ h4 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 600px;
-  margin-top: 0px;
 }
 
 .project h1 {
@@ -108,6 +123,7 @@ h4 {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  margin: 10px;
   height: 50px;
   font-size: 40px;
 }
@@ -162,6 +178,8 @@ h4 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  cursor: -webkit-grab;
+  cursor: grab;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -182,6 +200,7 @@ h4 {
           justify-content: center;
   width: 100%;
   height: 50px;
+  margin: 10px;
   font-size: 40px;
 }
 
@@ -216,10 +235,6 @@ footer {
 }
 
 @media all and (min-width: 280px) and (max-width: 768px) {
-  .project,
-  .skills {
-    margin: 0px 0;
-  }
   h4 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -231,10 +246,12 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     height: 50px;
-    margin-bottom: -30px;
+  }
+  .contact-info .me .image {
+    width: 100%;
   }
   .contact-info .me .image img {
-    width: 45%;
+    width: 100%;
   }
   .contact-info .me .info {
     padding: auto;
@@ -271,7 +288,6 @@ footer {
         -ms-flex-pack: start;
             justify-content: start;
     overflow-x: scroll;
-    margin-top: -50px;
   }
   .project h1 {
     display: none;
