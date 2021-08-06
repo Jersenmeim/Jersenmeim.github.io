@@ -8,6 +8,8 @@ import {
 const contactInfo = querySelector('.contact-info');
 const projectlist = querySelector('.project');
 const skillset = querySelector('.skills');
+const skillContainer = querySelector('.skill-container');
+const projectContainer = querySelector('.project-container');
 
 
 //generate contact information
@@ -40,9 +42,14 @@ getData("contact").then(function (data) {
 //generate project file
 getData("projects").then(function (data) {
     let project = data.projects;
+    const titleContainer = document.createElement('div')
+    titleContainer.setAttribute('class', 'title-container');
+    const title = document.createElement('p');
+    title.innerHTML = 'Web Development Projects'
+
     return project.map(function (projects) {
         const item = document.createElement("div");
-
+        item.setAttribute('class', 'item')
         item.innerHTML =
             `
         <div class="image">
@@ -50,10 +57,13 @@ getData("projects").then(function (data) {
         </div>
         <div class="desc">
         <p>${projects.description}</p>
-        <a href="${projects.link}">${projects.name}</a> 
+        <a href="${projects.link}">${projects.call}</a> 
         </div>  
         `;
-        projectlist.appendChild(item);
+        titleContainer.appendChild(title);
+        projectContainer.appendChild(item);
+        projectlist.appendChild(titleContainer);
+        projectlist.appendChild(projectContainer);
     })
 });
 
@@ -61,9 +71,15 @@ getData("projects").then(function (data) {
 //generate skills 
 getData("skills").then(function (data) {
     let skill = data.skills;
+    const titleContainer = document.createElement('div')
+    titleContainer.setAttribute('class', 'title-container');
+    const title = document.createElement('p');
+    title.innerHTML = 'Web Development Skills'
+
+
     return skill.map(function (skills) {
         const item = document.createElement("div");
-
+        item.setAttribute('class', 'item')
         item.innerHTML =
             `
         <div class="image">
@@ -73,6 +89,9 @@ getData("skills").then(function (data) {
         <p>${skills.description}</p>
         
         `;
-        skillset.appendChild(item);
+        titleContainer.appendChild(title);
+        skillContainer.append(item);
+        skillset.appendChild(titleContainer);
+        skillset.appendChild(skillContainer);
     })
 });

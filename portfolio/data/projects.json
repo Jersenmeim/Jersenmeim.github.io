@@ -2,23 +2,51 @@
     "projects": [{
             "imgpath": "images/0",
             "alt": " ",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "description": "Place Order Application",
             "link": "#",
-            "name": "Place Order Application"
+            "call": "Tap to view"
         },
         {
             "imgpath": "images/1",
             "alt": " ",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "description": "E-Commerce Application",
             "link": "#",
-            "name": "E-Commerce Application"
+            "call": "Tap to view"
         },
         {
             "imgpath": "images/2",
             "alt": " ",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "description": "Starwars API",
             "link": "#",
-            "name": "Starwars API"
+            "call": "Tap to view"
+        },
+        {
+            "imgpath": "images/2",
+            "alt": " ",
+            "description": "Calculator",
+            "link": "#",
+            "call": "Tap to view"
+        },
+        {
+            "imgpath": "images/2",
+            "alt": " ",
+            "description": "Messenger",
+            "link": "#",
+            "call": "Tap to view"
+        },
+        {
+            "imgpath": "images/2",
+            "alt": " ",
+            "description": "Movie Application",
+            "link": "#",
+            "call": "Tap to view"
+        },
+        {
+            "imgpath": "images/2",
+            "alt": " ",
+            "description": "Earthquake Application",
+            "link": "#",
+            "call": "Tap to view"
         }
     ]
 }
