@@ -27,6 +27,8 @@ getData("contact").then(function (data) {
             <p>${contact.name}</p>
             <p>${contact.email}</p>
             <p>${contact.contactNumber}</p>
+            <p><a href="${contact.linkedin}">LinkedIn Profile</a></p>
+            <p><a href="${contact.facebook}">Facebook Page</a></p>
         </div>
         `;
 

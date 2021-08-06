@@ -10,7 +10,7 @@ body {
     // background-image: url("");
     // background-size: cover;
     // background-blend-mode: screen;
-    background-color: #e3e0e0;
+    background-color: #fbfbfb;
 }
 
 .contact-info {
@@ -26,6 +26,7 @@ body {
             width: 100%;
             display: flex;
             justify-content: center;
+            margin: 10px;
 
             img {
 
@@ -43,7 +44,8 @@ body {
             flex-wrap: nowrap;
             align-items: center;
             justify-content: center;
-            background-color: white;
+            background-color: #000000;
+            color: whitesmoke;
             // border: 1px solid red;
             //background-color:#444444;
 
@@ -60,12 +62,25 @@ body {
 
 }
 
+h4 {
+    display: none;
+}
+
+
+.project,
+
+.skills {
+    margin: 50px 0;
+}
+
 .project {
-    margin: 20px;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-
+    height: 600px;
+    margin-top: 0px;
 
     h1 {
         display: flex;
@@ -80,25 +95,36 @@ body {
         margin: 5px;
 
         .image {
-            background-color: rgb(255, 255, 255);
             position: relative;
             width: 250px;
             height: 300px;
-            box-shadow: 5px 10px;
+            background-image: url('https://via.placeholder.com/250x300');
 
         }
 
         .desc {
             background-color: white;
-            box-shadow: 5px 10px;
 
             position: relative;
             width: 250px;
-            height: 100px;
+            height: 200px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
+
+            p {
+                padding: 2%;
+                overflow-y: auto;
+            }
+
+            a {
+                margin: 10px;
+                text-decoration-line: none;
+                background-color: black;
+                color: whitesmoke;
+                padding: 10px;
+            }
 
         }
     }
@@ -112,7 +138,6 @@ body {
 
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px;
 
 
     h1 {
@@ -131,7 +156,6 @@ body {
         justify-content: center;
         width: 200px;
         height: 200px;
-        margin: 10px;
 
         .image {
             img {
@@ -143,7 +167,7 @@ body {
 }
 
 footer {
-    padding: 1%;
+    padding: 1.5%;
     border-top: 1px solid #d1d1d1;
     background-color: white;
     color: #767676;
@@ -152,6 +176,21 @@ footer {
 
 
 @media all and (min-width: 280px) and (max-width: 768px) {
+
+    .project,
+
+    .skills {
+        margin: 0px 0;
+    }
+
+    h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin-bottom: -30px;
+    }
+
     .contact-info {
 
         .me {
@@ -173,7 +212,6 @@ footer {
                 display: flex;
                 flex-wrap: nowrap;
                 justify-content: start;
-                background-color: white;
                 overflow-x: scroll;
                 // border: 1px solid red;
                 //background-color:#444444;
@@ -196,16 +234,11 @@ footer {
         flex-wrap: nowrap;
         justify-content: start;
         overflow-x: scroll;
-        height: 500px;
 
-
+        margin-top: -50px;
 
         h1 {
-            font-size: 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
+            display: none;
         }
 
     }
@@ -219,8 +252,19 @@ footer {
         height: 300px;
 
         h1 {
-            font-size: 24px;
+            display: none;
         }
     }
 
+    footer {
+        padding: 1.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #d1d1d1;
+        background-color: white;
+        color: #767676;
+        text-align: center;
+        height: 50px;
+    }
 }
