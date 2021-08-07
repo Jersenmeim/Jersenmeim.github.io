@@ -47,6 +47,27 @@
             "description": "Earthquake Application",
             "link": "https://jersenmeim.github.io/wdd330/week10/team/index.html",
             "call": "Tap to view"
+        },
+        {
+            "imgpath": "images/net.jpg",
+            "alt": "net",
+            "description": ".NET Repository",
+            "link": "https://github.com/Jersenmeim/CIT365-F2020-MeimJersen",
+            "call": "Tap to view"
+        },
+        {
+            "imgpath": "images/php.jpg",
+            "alt": "php",
+            "description": "Car Management App | PHP repo",
+            "link": "https://github.com/Jersenmeim/cse340/tree/main/phpmotors",
+            "call": "Tap to view"
+        },
+        {
+            "imgpath": "images/java.jpg",
+            "alt": "jave",
+            "description": "Java Applications",
+            "link": "https://github.com/Jersenmeim/cse340/tree/main/phpmotors",
+            "call": "Tap to view"
         }
     ]
 }
