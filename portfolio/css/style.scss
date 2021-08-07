@@ -9,7 +9,7 @@ body {
     // background-image: url("");
     // background-size: cover;
     // background-blend-mode: screen;
-    background-color: #f0f2f5;
+    background-color: #1f447a;
 }
 
 .contact-info {
@@ -107,7 +107,12 @@ h4 {
                 position: relative;
                 width: 200px;
                 height: 200px;
+
                 background-image: url('https://via.placeholder.com/200x200');
+
+                img {
+                    width: 100%;
+                }
             }
 
             .desc {
@@ -123,6 +128,7 @@ h4 {
                 p {
                     padding: 2%;
                     overflow-y: auto;
+                    text-align: center;
                 }
 
                 a {

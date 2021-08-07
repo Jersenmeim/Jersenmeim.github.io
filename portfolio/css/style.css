@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f0f2f5;
+  background-color: #1f447a;
 }
 
 .contact-info {
@@ -159,6 +159,10 @@ h4 {
   background-image: url("https://via.placeholder.com/200x200");
 }
 
+.project .project-container .item .image img {
+  width: 100%;
+}
+
 .project .project-container .item .desc {
   background-color: white;
   position: relative;
@@ -181,6 +185,7 @@ h4 {
 .project .project-container .item .desc p {
   padding: 2%;
   overflow-y: auto;
+  text-align: center;
 }
 
 .project .project-container .item .desc a {

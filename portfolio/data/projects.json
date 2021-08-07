@@ -1,51 +1,51 @@
 {
     "projects": [{
-            "imgpath": "images/0",
-            "alt": " ",
+            "imgpath": "images/placeorder.jpg",
+            "alt": "placeorder",
             "description": "Place Order Application",
-            "link": "#",
+            "link": "https://jersenmeim.github.io/wdd330/project/index.html",
             "call": "Tap to view"
         },
         {
-            "imgpath": "images/1",
-            "alt": " ",
+            "imgpath": "images/ecommerce.jpg",
+            "alt": "ecommerce",
             "description": "E-Commerce Application",
-            "link": "#",
+            "link": "https://ecommerce-cse341.herokuapp.com/",
             "call": "Tap to view"
         },
         {
-            "imgpath": "images/2",
-            "alt": " ",
+            "imgpath": "images/starwars.jpg",
+            "alt": "starwars",
             "description": "Starwars API",
-            "link": "#",
+            "link": "https://jersenmeim.github.io/wdd330/week8/swapi/index.html",
             "call": "Tap to view"
         },
         {
-            "imgpath": "images/2",
-            "alt": " ",
-            "description": "Calculator",
-            "link": "#",
+            "imgpath": "images/drum.jpg",
+            "alt": "drum",
+            "description": "Drum Kit Application",
+            "link": "https://jersenmeim.github.io/wdd330/week9/JSDrumKit/index-START.html",
             "call": "Tap to view"
         },
         {
-            "imgpath": "images/2",
-            "alt": " ",
-            "description": "Messenger",
-            "link": "#",
+            "imgpath": "images/chat.jpg",
+            "alt": "chat",
+            "description": "Online Chat",
+            "link": "https://cse341-proveme.herokuapp.com/prove12",
             "call": "Tap to view"
         },
         {
-            "imgpath": "images/2",
-            "alt": " ",
-            "description": "Movie Application",
-            "link": "#",
+            "imgpath": "images/movie.jpg",
+            "alt": "movie",
+            "description": "Movie Management Application",
+            "link": "https://moovapp.vercel.app/",
             "call": "Tap to view"
         },
         {
-            "imgpath": "images/2",
-            "alt": " ",
+            "imgpath": "images/earthquake.jpg",
+            "alt": "earthquake",
             "description": "Earthquake Application",
-            "link": "#",
+            "link": "https://jersenmeim.github.io/wdd330/week10/team/index.html",
             "call": "Tap to view"
         }
     ]

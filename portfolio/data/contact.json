@@ -1,10 +1,11 @@
 {
     "contact": [{
         "imgpath": "images/me.png",
-        "name": "Jersen Meim",
+        "name": "> Jersen Meim",
         "email": "meimjersen@gmail.com",
         "contactNumber": "+639056588562",
         "linkedin": "https://www.linkedin.com/in/jersenmeim",
-        "facebook": "https://www.facebook.com/DesignbyJersen/"
+        "facebook": "https://www.facebook.com/DesignbyJersen/",
+        "behance": "https://www.behance.net/jersenmeim"
     }]
 }

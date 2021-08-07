@@ -29,8 +29,9 @@ getData("contact").then(function (data) {
             <p>${contact.name}</p>
             <p>${contact.email}</p>
             <p>${contact.contactNumber}</p>
-            <p><a href="${contact.linkedin}">LinkedIn Profile</a></p>
-            <p><a href="${contact.facebook}">Facebook Page</a></p>
+            <p><a target="_blank" href="${contact.linkedin}">LinkedIn Profile</a></p>
+            <p><a target="_blank" href="${contact.facebook}">Facebook Page</a></p>
+            <p><a target="_blank" href="${contact.behance}">Behance</a></p>
         </div>
         `;
 
@@ -45,7 +46,7 @@ getData("projects").then(function (data) {
     const titleContainer = document.createElement('div')
     titleContainer.setAttribute('class', 'title-container');
     const title = document.createElement('p');
-    title.innerHTML = 'Web Development Projects'
+    title.innerHTML = 'Web Development Projects >'
 
     return project.map(function (projects) {
         const item = document.createElement("div");
@@ -57,7 +58,7 @@ getData("projects").then(function (data) {
         </div>
         <div class="desc">
         <p>${projects.description}</p>
-        <a href="${projects.link}">${projects.call}</a> 
+        <a target="_blank" href="${projects.link}">${projects.call}</a> 
         </div>  
         `;
         titleContainer.appendChild(title);
@@ -74,7 +75,7 @@ getData("skills").then(function (data) {
     const titleContainer = document.createElement('div')
     titleContainer.setAttribute('class', 'title-container');
     const title = document.createElement('p');
-    title.innerHTML = 'Web Development Skills'
+    title.innerHTML = 'Web Development Skills >'
 
 
     return skill.map(function (skills) {
