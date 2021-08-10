@@ -51,7 +51,7 @@ getData("projects").then(function (data) {
     const titleContainer = document.createElement('div')
     titleContainer.setAttribute('class', 'title-container');
     const title = document.createElement('p');
-    title.innerHTML = 'Web Development Projects >'
+    title.innerHTML = 'Web Development Projects <i class="fas fa-angle-double-right"></i>'
 
     return project.map(function (projects) {
         const item = document.createElement("div");
@@ -80,7 +80,7 @@ getData("skills").then(function (data) {
     const titleContainer = document.createElement('div')
     titleContainer.setAttribute('class', 'title-container');
     const title = document.createElement('p');
-    title.innerHTML = 'Web Development Skills >'
+    title.innerHTML = 'Web Development Skills <i class="fas fa-angle-double-right"></i>'
 
 
     return skill.map(function (skills) {
