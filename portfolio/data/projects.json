@@ -1,5 +1,12 @@
 {
     "projects": [{
+            "imgpath": "images/burj.jpg",
+            "alt": "touristspot",
+            "description": "Burj Khalifa Website",
+            "link": "https://jersenmeim.github.io/portfolio/burjkhalifa_dubai/",
+            "call": "Tap to view"
+        },
+        {
             "imgpath": "images/placeorder.jpg",
             "alt": "placeorder",
             "description": "Place Order Application",
@@ -69,5 +76,6 @@
             "link": "https://github.com/Jersenmeim/jersenmeim.github.io/tree/master/java_applications",
             "call": "Tap to view"
         }
+
     ]
 }
