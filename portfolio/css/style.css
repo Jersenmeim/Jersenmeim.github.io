@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #1f447a;
+  background-color: #000000;
 }
 
 .contact-info {
@@ -50,10 +50,46 @@ body {
 }
 
 .contact-info .me .info {
-  cursor: -webkit-grab;
-  cursor: grab;
   padding: 1%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  color: black;
+}
+
+.contact-info .me .info .title {
+  color: black;
+}
+
+.contact-info .me .info .title p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.contact-info .me .info .title p:first-child {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #c94242;
+}
+
+.contact-info .me .info .title p:nth-child(2) {
+  width: 70%;
+  font-weight: normal;
+  letter-spacing: .5px;
+}
+
+.contact-info .me .info .other-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,25 +99,33 @@ body {
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  color: black;
-  border-top: solid 1px gray;
-  border-bottom: solid 1px gray;
 }
 
-.contact-info .me .info p {
-  font-size: 13px;
-  margin: 10px;
-  text-align: center;
+.contact-info .me .info .other-info p {
+  margin-right: 10px;
+  text-align: left;
   letter-spacing: 1px;
 }
 
-.contact-info .me .info p a {
+.contact-info .me .info .other-info p a i {
+  font-size: 25px;
+  color: gray;
+}
+
+.contact-info .me .info .resume {
+  margin: 20px 0;
+}
+
+.contact-info .me .info .resume a {
+  color: white;
+  background-color: #c94242;
+  padding: 12px 12px;
   text-decoration: none;
 }
 
@@ -279,26 +323,28 @@ footer {
 }
 
 @media all and (min-width: 280px) and (max-width: 768px) {
-  .contact-info .me .image {
-    width: 50%;
+  .contact-info {
+    padding: 4%;
+    background-color: #ffffff;
   }
-  .contact-info .me .image img {
-    width: 100%;
-  }
-  .contact-info .me .info {
-    padding: 0;
+  .contact-info .me {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    overflow-x: scroll;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .contact-info .me .info p {
-    margin: 20px;
+  .contact-info .me .image {
+    padding: 1%;
+    width: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -308,7 +354,81 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    white-space: nowrap;
+    margin: 10px;
+  }
+  .contact-info .me .image img {
+    width: 100%;
+  }
+  .contact-info .me .info {
+    padding: 1%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    color: black;
+  }
+  .contact-info .me .info .title {
+    color: black;
+  }
+  .contact-info .me .info .title p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .contact-info .me .info .title p:first-child {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c94242;
+  }
+  .contact-info .me .info .title p:nth-child(2) {
+    width: 100%;
+    font-weight: normal;
+    text-align: justify;
+    letter-spacing: .5px;
+  }
+  .contact-info .me .info .other-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .contact-info .me .info .other-info p {
+    margin-right: 10px;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  .contact-info .me .info .other-info p a i {
+    font-size: 25px;
+    color: gray;
+  }
+  .contact-info .me .info .resume {
+    margin: 20px 0;
+  }
+  .contact-info .me .info .resume a {
+    color: white;
+    background-color: #c94242;
+    padding: 12px 12px;
+    text-decoration: none;
   }
   .project .title-container {
     font-size: 16px;

@@ -1,11 +1,11 @@
 {
     "contact": [{
+        "title": "A Web Designer and Developer",
         "imgpath": "images/me.png",
-        "name": "> Jersen Meim",
-        "email": "meimjersen@gmail.com",
-        "contactNumber": "+639056588562",
+        "about": "Hello, my name is Jersen I am a Creative Web Designer and Developer. I have a very much experience in HTML, CSS, JavaScript. I create websites that work well and look good. Coding have been my passion since the days I started working with computers, but I found myself into web design and development since 2018. </br></br>  I love challenges and I am a risk taker when it comes in designing.",
         "linkedin": "https://www.linkedin.com/in/jersenmeim",
         "facebook": "https://www.facebook.com/DesignbyJersen/",
-        "behance": "https://www.behance.net/jersenmeim"
+        "behance": "https://www.behance.net/jersenmeim",
+        "resume": "data/resume.pdf"
     }]
 }

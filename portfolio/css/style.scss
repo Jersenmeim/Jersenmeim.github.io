@@ -9,7 +9,7 @@ body {
     // background-image: url("");
     // background-size: cover;
     // background-blend-mode: screen;
-    background-color: #1f447a;
+    background-color: #000000;
 }
 
 .contact-info {
@@ -35,28 +35,70 @@ body {
         }
 
         .info {
-            cursor: grab;
             padding: 1%;
             width: 100%;
             display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-items: center;
+            flex-direction: column;
+            align-items: flex-start;
             justify-content: start;
             color: black;
-            border-top: solid 1px gray;
-            border-bottom: solid 1px gray;
 
-            p {
-                font-size: 13px;
-                margin: 10px;
-                text-align: center;
-                letter-spacing: 1px;
+
+            .title {
+                color: black;
+
+                p {
+                    text-align: left;
+                    margin: 10px 0;
+                }
+
+                p:first-child {
+                    font-size: 30px;
+                    font-weight: bolder;
+                    color: rgb(201, 66, 66);
+                }
+
+                p:nth-child(2) {
+                    width: 70%;
+                    font-weight: normal;
+                    letter-spacing: .5px;
+                }
+            }
+
+            .other-info {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: flex-start;
+                justify-content: start;
+
+                p {
+
+                    margin-right: 10px;
+                    text-align: left;
+                    letter-spacing: 1px;
+
+                    a {
+                        i {
+                            font-size: 25px;
+                            color: gray;
+                        }
+                    }
+                }
+            }
+
+            .resume {
+                margin: 20px 0;
 
                 a {
+                    color: white;
+                    background-color: rgb(201, 66, 66);
+                    padding: 12px 12px;
                     text-decoration: none;
                 }
             }
+
+
         }
 
     }
@@ -207,41 +249,102 @@ footer {
 
 @media all and (min-width: 280px) and (max-width: 768px) {
 
-
     .contact-info {
+        padding: 4%;
+        background-color: #ffffff;
+
         .me {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
             .image {
+                padding: 1%;
                 width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
 
                 img {
                     width: 100%;
                 }
-
-
             }
 
             .info {
-                padding: 0;
-
+                padding: 1%;
+                width: 100%;
                 display: flex;
-                flex-wrap: nowrap;
+                flex-direction: column;
+                align-items: flex-start;
                 justify-content: start;
-                overflow-x: scroll;
-                // border: 1px solid red;
-                //background-color:#444444;
+                color: black;
 
-                p {
-                    margin: 20px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    white-space: nowrap
+
+                .title {
+                    color: black;
+
+                    p {
+                        text-align: center;
+                        margin: 10px 0;
+                    }
+
+                    p:first-child {
+                        font-size: 30px;
+                        font-weight: bolder;
+                        color: rgb(201, 66, 66);
+                    }
+
+                    p:nth-child(2) {
+                        width: 100%;
+                        font-weight: normal;
+                        text-align: justify;
+                        letter-spacing: .5px;
+                    }
                 }
+
+                .other-info {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-items: flex-start;
+                    justify-content: start;
+
+                    p {
+
+                        margin-right: 10px;
+                        text-align: left;
+                        letter-spacing: 1px;
+
+                        a {
+                            i {
+                                font-size: 25px;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+
+                .resume {
+                    margin: 20px 0;
+
+                    a {
+                        color: white;
+                        background-color: rgb(201, 66, 66);
+                        padding: 12px 12px;
+                        text-decoration: none;
+                    }
+                }
+
+
             }
 
         }
 
     }
+
+
 
     .project {
 

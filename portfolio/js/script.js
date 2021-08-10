@@ -26,14 +26,19 @@ getData("contact").then(function (data) {
             <img src=${contact.imgpath} alt="Jersen">
         </div>
         <div class="info">
-            <p>${contact.name}</p>
-            <p>${contact.email}</p>
-            <p>${contact.contactNumber}</p>
-            <p><a target="_blank" href="${contact.linkedin}">LinkedIn Profile</a></p>
-            <p><a target="_blank" href="${contact.facebook}">Facebook Page</a></p>
-            <p><a target="_blank" href="${contact.behance}">Behance</a></p>
-        </div>
-        `;
+            <div class="title" >
+                <p>${contact.title}</p>
+                <p>${contact.about}</p>      
+            </div>
+            <div class="other-info">
+                <p><a target="_blank" href="${contact.linkedin}"><i class="fab fa-linkedin"></i></a></p>
+                <p><a target="_blank" href="${contact.facebook}"><i class="fab fa-facebook"></i></a></p>
+                <p><a target="_blank" href="${contact.behance}"><i class="fab fa-behance"></i></a></p>
+            </div>
+            <div class="resume">
+                <a href="${contact.resume}"><i class="fa fa-download"></i>  Download Resume  </a>
+            </div>
+        </div>`;
 
         contactInfo.appendChild(item);
 
