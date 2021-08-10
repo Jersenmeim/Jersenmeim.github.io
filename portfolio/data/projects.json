@@ -7,6 +7,13 @@
             "call": "Tap to view"
         },
         {
+            "imgpath": "images/movie.jpg",
+            "alt": "movie",
+            "description": "Movie Management Application",
+            "link": "https://moovapp.vercel.app/",
+            "call": "Tap to view"
+        },
+        {
             "imgpath": "images/placeorder.jpg",
             "alt": "placeorder",
             "description": "Place Order Application",
@@ -18,13 +25,6 @@
             "alt": "ecommerce",
             "description": "E-Commerce Application",
             "link": "https://ecommerce-cse341.herokuapp.com/",
-            "call": "Tap to view"
-        },
-        {
-            "imgpath": "images/starwars.jpg",
-            "alt": "starwars",
-            "description": "Starwars API",
-            "link": "https://jersenmeim.github.io/wdd330/week8/swapi/index.html",
             "call": "Tap to view"
         },
         {
@@ -42,10 +42,10 @@
             "call": "Tap to view"
         },
         {
-            "imgpath": "images/movie.jpg",
-            "alt": "movie",
-            "description": "Movie Management Application",
-            "link": "https://moovapp.vercel.app/",
+            "imgpath": "images/starwars.jpg",
+            "alt": "starwars",
+            "description": "Starwars API",
+            "link": "https://jersenmeim.github.io/wdd330/week8/swapi/index.html",
             "call": "Tap to view"
         },
         {
