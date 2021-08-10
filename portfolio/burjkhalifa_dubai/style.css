@@ -1,0 +1,305 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  -ms-grid-columns: 4fr 1fr;
+      grid-template-columns: 4fr 1fr;
+  -ms-grid-rows: 4fr;
+      grid-template-rows: 4fr;
+}
+
+body nav {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body nav p:nth-child(1) {
+  margin: 1em auto 1em 14px;
+  padding: 10px;
+  text-align: center;
+  background-color: #435760;
+}
+
+body nav p:nth-child(1) a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  letter-spacing: 2px;
+}
+
+body nav p:nth-child(3) {
+  color: black;
+  padding: 1em;
+}
+
+body main {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 3 / 2;
+  background-image: url(./images/burj-al-arab-690768_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 3fr 6fr 1fr;
+      grid-template-rows: 3fr 6fr 1fr;
+}
+
+body main .information {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 3 / 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body main .information .title {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 1em 0 0 2em;
+  padding: 22px 28px;
+}
+
+body main .information .title p:first-child {
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+body main .information .title p:nth-child(2) {
+  font-size: 1.3em;
+}
+
+body main .information .btn {
+  margin: 1em 0 0 2em;
+  padding: 12px 18px;
+  background-color: #1C130B;
+}
+
+body main .information .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+body main .footer-links {
+  margin: 1em 0 0 1em;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 1 / 4 / 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+body main .footer-links li:first-child {
+  margin: 0 0 0 14px;
+}
+
+body main .footer-links li {
+  list-style-type: none;
+}
+
+body main .footer-links li a {
+  text-decoration: none;
+  color: white;
+}
+
+body main .footer-links li::after {
+  content: "|";
+  padding: 0 10px;
+  color: white;
+}
+
+body main .footer-links li:nth-child(5)::after {
+  content: " ";
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    background-image: url(./images/burj-al-arab-690768_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr  1fr;
+        grid-template-rows: 1fr  1fr;
+  }
+  body nav {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 2 / 1 / 3 / 3;
+    display: -ms-grid;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
+  body nav p:first-child {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 3 / 2;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    right: 2.1em;
+  }
+  body nav iframe {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 2 / 3 / 3;
+    margin: auto;
+  }
+  body nav p:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 3 / 2;
+    top: 5em;
+    position: relative;
+    margin: auto;
+    color: white;
+  }
+  body main {
+    background: none;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  body main .information .title {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 1em 0 0 2em;
+    padding: 22px 28px;
+  }
+  body main .information .title p:first-child {
+    font-size: 4em;
+    letter-spacing: 2px;
+  }
+  body main .information .title p:nth-child(2) {
+    font-size: 1.3em;
+  }
+  body main .footer-links {
+    position: fixed;
+    bottom: 0;
+    margin: 1em;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  body {
+    background-image: none;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  body nav {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 2 / 1 / 3 / 3;
+    margin: auto;
+  }
+  body nav p:first-child {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  body nav iframe {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  body main {
+    background-image: url(./images/burj-al-arab-690768_1920.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+    background-repeat: no-repeat;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  body main .information .title {
+    margin: 2em 0 0 0;
+    padding: 12px 30px;
+  }
+  body main .information .title p:first-child {
+    font-size: 19px;
+    letter-spacing: 2px;
+  }
+  body main .information .title p:nth-child(2) {
+    font-size: 12px;
+  }
+  body main .footer-links {
+    position: relative;
+    margin: 10px;
+    font-size: 11px;
+  }
+  body main .footer-links li:first-child {
+    margin: 2px;
+  }
+  body main .footer-links li {
+    text-align: left;
+    margin: auto;
+    padding: 0;
+  }
+  body main .footer-links li::after {
+    content: " ";
+    padding: 0;
+    color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
