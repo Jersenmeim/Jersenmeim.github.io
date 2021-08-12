@@ -1,5 +1,12 @@
 {
     "projects": [{
+            "imgpath": "images/city.jpg",
+            "alt": "touristspot",
+            "description": "City Driving landing Page",
+            "link": "https://jersenmeim.github.io/portfolio/citydriving/",
+            "call": "Tap to view"
+        },
+        {
             "imgpath": "images/burj.jpg",
             "alt": "touristspot",
             "description": "Burj Khalifa Website",
