@@ -1,0 +1,12 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+@media (min-width: 758px) {
+  .news-input {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
