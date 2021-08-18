@@ -35,6 +35,13 @@
             "call": "Tap to view"
         },
         {
+            "imgpath": "images/apparel.jpg",
+            "alt": "css-garden.png",
+            "description": "Apparel Landing Page",
+            "link": "https://jersenmeim.github.io/portfolio/base-apparel-coming-soon-master/",
+            "call": "Tap to view"
+        },
+        {
             "imgpath": "images/placeorder.jpg",
             "alt": "placeorder",
             "description": "Place Order Application",
