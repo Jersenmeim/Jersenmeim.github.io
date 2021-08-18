@@ -28,6 +28,13 @@
             "call": "Tap to view"
         },
         {
+            "imgpath": "images/css-garden.png",
+            "alt": "css-garden.png",
+            "description": "CSS Garden (Advance CSS)",
+            "link": "https://splucena.github.io/wdd331-zen-garden/src/zen-garden.html",
+            "call": "Tap to view"
+        },
+        {
             "imgpath": "images/placeorder.jpg",
             "alt": "placeorder",
             "description": "Place Order Application",
