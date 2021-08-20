@@ -72,7 +72,8 @@
 
 .container .tagline {
   padding: 20px 20px 20px 200px;
-  background: -moz-linear-gradient(left, white 50%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(left, white 50%, rgba(255, 255, 255, 0) 100%);
   width: 30%;
   margin: 20px 0 0 0;
 }
@@ -159,7 +160,7 @@
 .container .form .right {
   background-color: white;
   height: 106px;
-  width: 600px;
+  width: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

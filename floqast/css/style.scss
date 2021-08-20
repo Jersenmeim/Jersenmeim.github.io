@@ -51,7 +51,7 @@
 
     .tagline {
         padding: 20px 20px 20px 200px;
-        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
         width: 30%;
         margin: 20px 0 0 0;
 
@@ -121,7 +121,7 @@
         .right {
             background-color: white;
             height: 106px;
-            width: 600px;
+            width: 700px;
             display: flex;
             flex-direction: column;
             align-items: center;
