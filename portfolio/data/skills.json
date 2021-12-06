@@ -1,71 +1,71 @@
 {
     "skills": [{
-            "imgpath": "/images/html.png",
+            "imgpath": "images/html.png",
             "alt": " ",
             "description": "HTML 5"
         },
         {
-            "imgpath": "/images/sass.png",
+            "imgpath": "images/sass.png",
             "alt": " ",
             "description": "SASS"
         },
         {
-            "imgpath": "/images/php.png",
+            "imgpath": "images/php.png",
             "alt": " ",
             "description": "PHP"
         },
         {
-            "imgpath": "/images/mysql.png",
+            "imgpath": "images/mysql.png",
             "alt": " ",
             "description": "MYSQL"
         },
         {
-            "imgpath": "/images/js.png",
+            "imgpath": "images/js.png",
             "alt": " ",
             "description": "JavaScript"
         },
         {
-            "imgpath": "/images/node.png",
+            "imgpath": "images/node.png",
             "alt": " ",
             "description": "Node JS"
         },
         {
-            "imgpath": "/images/net.png",
+            "imgpath": "images/net.png",
             "alt": " ",
             "description": ".NET"
         },
         {
-            "imgpath": "/images/java.png",
+            "imgpath": "images/java.png",
             "alt": " ",
             "description": "JAVA"
         },
         {
-            "imgpath": "/images/illustrator.png",
+            "imgpath": "images/illustrator.png",
             "alt": " ",
             "description": "Adobe Illustrator"
         },
         {
-            "imgpath": "/images/photoshop.png",
+            "imgpath": "images/photoshop.png",
             "alt": " ",
             "description": "Adobe Photoshop"
         },
         {
-            "imgpath": "/images/xd.png",
+            "imgpath": "images/xd.png",
             "alt": " ",
             "description": "Adobe XD"
         },
         {
-            "imgpath": "/images/github.png",
+            "imgpath": "images/github.png",
             "alt": " ",
             "description": "Github"
         },
         {
-            "imgpath": "/images/heroku.png",
+            "imgpath": "images/heroku.png",
             "alt": " ",
             "description": "Heroku"
         },
         {
-            "imgpath": "/images/mongodb.png",
+            "imgpath": "images/mongodb.png",
             "alt": " ",
             "description": "MongoDB"
         }
