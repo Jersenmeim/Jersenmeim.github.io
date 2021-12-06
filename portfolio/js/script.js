@@ -4,7 +4,7 @@ console.log('Jersen')
 import {
     getData,
     querySelector
-} from '/js/utilities.js'
+} from 'portfolio/js/utilities.js'
 
 
 //Selectors
