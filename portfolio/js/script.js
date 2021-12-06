@@ -1,15 +1,19 @@
+console.log('Jersen')
+
+
 import {
     getData,
     querySelector
-} from './utilities.js'
+} from '/js/utilities.js'
 
 
 //Selectors
-const contactInfo = querySelector('.contact-info');
-const projectlist = querySelector('.project');
+
 const skillset = querySelector('.skills');
-const skillContainer = querySelector('.skill-container');
+const projectlist = querySelector('.project');
 const projectContainer = querySelector('.project-container');
+const cover = querySelector('.cover');
+
 
 
 //generate contact information
@@ -26,8 +30,7 @@ getData("contact").then(function (data) {
             <img src=${contact.imgpath} alt="Jersen">
         </div>
         <div class="info">
-            <div class="title" >
-                <p>${contact.title}</p>
+            <div class="mee" >
                 <p>${contact.about}</p>      
             </div>
             <div class="other-info">
@@ -40,8 +43,22 @@ getData("contact").then(function (data) {
             </div>
         </div>`;
 
-        contactInfo.appendChild(item);
+        cover.appendChild(item);
 
+    })
+});
+
+//generate skills 
+getData("skills").then(function (data) {
+    let skill = data.skills;
+    return skill.map(function (skills) {
+        const item = document.createElement("div");
+
+        item.innerHTML =
+            `
+            <img src=${skills.imgpath} alt=${skills.alt}>
+        `;
+        skillset.appendChild(item);
     })
 });
 
@@ -51,7 +68,7 @@ getData("projects").then(function (data) {
     const titleContainer = document.createElement('div')
     titleContainer.setAttribute('class', 'title-container');
     const title = document.createElement('p');
-    title.innerHTML = 'Web Development Projects <i class="fas fa-angle-double-right"></i>'
+    title.innerHTML = 'Web Development Projects</i>'
 
     return project.map(function (projects) {
         const item = document.createElement("div");
@@ -70,34 +87,5 @@ getData("projects").then(function (data) {
         projectContainer.appendChild(item);
         projectlist.appendChild(titleContainer);
         projectlist.appendChild(projectContainer);
-    })
-});
-
-
-//generate skills 
-getData("skills").then(function (data) {
-    let skill = data.skills;
-    const titleContainer = document.createElement('div')
-    titleContainer.setAttribute('class', 'title-container');
-    const title = document.createElement('p');
-    title.innerHTML = 'Web Development Skills <i class="fas fa-angle-double-right"></i>'
-
-
-    return skill.map(function (skills) {
-        const item = document.createElement("div");
-        item.setAttribute('class', 'item')
-        item.innerHTML =
-            `
-        <div class="image">
-            <img src=${skills.imgpath} alt=${skills.alt}>
-        </div>
-       
-        <p>${skills.description}</p>
-        
-        `;
-        titleContainer.appendChild(title);
-        skillContainer.append(item);
-        skillset.appendChild(titleContainer);
-        skillset.appendChild(skillContainer);
     })
 });
