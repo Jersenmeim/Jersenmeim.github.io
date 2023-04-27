@@ -55,15 +55,15 @@
             "link": "https://jersenmeim.github.io/wdd330/project/index.html",
             "call": "Tap to view"
         },
-        /*
+        
         {
             "imgpath": "images/ecommerce.jpg",
             "alt": "ecommerce",
             "description": "E-Commerce Application",
-            "link": "https://ecommerce-cse341.herokuapp.com/",
+            "link": "#",
             "call": "Tap to view"
         },
-        */
+        
         {
             "imgpath": "images/drum.jpg",
             "alt": "drum",
@@ -71,15 +71,15 @@
             "link": "https://jersenmeim.github.io/wdd330/week9/JSDrumKit/index-START.html",
             "call": "Tap to view"
         },
-        /*
+        
         {
             "imgpath": "images/chat.jpg",
             "alt": "chat",
             "description": "Online Chat",
-            "link": "https://cse341-proveme.herokuapp.com/prove12",
+            "link": "#",
             "call": "Tap to view"
         },
-         */
+         
         {
             "imgpath": "images/starwars.jpg",
             "alt": "starwars",
