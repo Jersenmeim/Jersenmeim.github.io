@@ -56,13 +56,7 @@
             "call": "Tap to view"
         },
         
-        {
-            "imgpath": "images/ecommerce.jpg",
-            "alt": "ecommerce",
-            "description": "E-Commerce Application",
-            "link": "#",
-            "call": "Tap to view"
-        },
+     
         
         {
             "imgpath": "images/drum.jpg",
@@ -72,13 +66,7 @@
             "call": "Tap to view"
         },
         
-        {
-            "imgpath": "images/chat.jpg",
-            "alt": "chat",
-            "description": "Online Chat",
-            "link": "#",
-            "call": "Tap to view"
-        },
+      
          
         {
             "imgpath": "images/starwars.jpg",
