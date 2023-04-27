@@ -5,8 +5,12 @@ import {
     getData,
     querySelector
 } from '/portfolio/js/utilities.js'
-
-
+/*
+import {
+    getData,
+    querySelector
+} from '/js/utilities.js'
+*/
 //Selectors
 
 const skillset = querySelector('.skills');
@@ -88,4 +92,4 @@ getData("projects").then(function (data) {
         projectlist.appendChild(titleContainer);
         projectlist.appendChild(projectContainer);
     })
-});
+}); 
