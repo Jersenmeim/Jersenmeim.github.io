@@ -1,82 +1,56 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
   background-color: rgba(253, 253, 253, 0.452);
   width: 100%;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   height: 60px;
 }
-
 .nav #nav-check {
   display: none;
 }
-
 .nav .nav-header {
   padding: 10px;
 }
-
 .nav .nav-header .nav-title {
-  -ms-flex-item-align: stretch;
-      align-self: stretch;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-self: stretch;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   width: 100%;
   height: auto;
 }
-
 .nav .nav-header .nav-title img {
   width: 5%;
 }
-
 .nav .nav-header .nav-title p {
   font-size: 25px;
   font-weight: bold;
   padding: 10px;
 }
-
 .nav .nav-header .nav-title p a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
 }
-
 .nav .nav-btn {
   display: none;
 }
-
 .nav .nav-links {
-  -ms-flex-item-align: stretch;
-      align-self: stretch;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-self: stretch;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-size: 12px;
   background-color: rgba(0, 0, 0, 0.596);
   text-transform: uppercase;
 }
-
 .nav .nav-links a {
   padding: 8px 20px;
   letter-spacing: 1px;
@@ -92,7 +66,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 .background .sometext {
   color: white;
   font-size: 70px;
@@ -107,50 +80,35 @@
   background-color: rgba(253, 253, 253, 0.911);
   float: right;
   margin: 0px 100px 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 27%;
   padding: 2%;
 }
-
 .forms p:first-child {
   font-size: 35px;
   font-weight: bold;
   text-align: left;
   margin: 10px 0;
 }
-
 .forms p:nth-child(2) {
   width: 100%;
-  opacity: .8;
+  opacity: 0.8;
 }
-
 .forms form {
   width: 100%;
 }
-
 .forms form input {
   width: 100%;
   padding: 4% 3%;
   border: none;
   margin: 8px auto;
 }
-
 .forms form .check-box label {
   padding: 1px;
 }
-
 .forms form .check-box input[type=checkbox],
 .forms form .check-box input[type=radio] {
   position: relative;
@@ -158,7 +116,6 @@
   width: 10%;
   margin-left: -10px;
 }
-
 .forms form #last {
   background-color: black;
   color: white;
@@ -169,7 +126,7 @@
 
 @media (max-width: 600px) {
   .background {
-    background-color: #241204a6;
+    background-color: rgba(36, 18, 4, 0.6509803922);
     background-blend-mode: multiply;
     background-image: url("images/background.jpg");
   }
@@ -187,19 +144,10 @@
     border-radius: 1%;
     float: none;
     margin: 10px auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 85%;
     padding: 2%;
   }
@@ -212,7 +160,7 @@
   }
   .background .forms p:nth-child(2) {
     font-size: 12px;
-    opacity: .5;
+    opacity: 0.5;
     width: 95%;
     margin: auto;
   }
@@ -243,7 +191,7 @@
     border-radius: 2%;
   }
   .nav {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   .nav .nav-header .nav-title img {
     width: 7%;
@@ -260,8 +208,6 @@
     font-weight: bolder;
   }
   .nav .nav-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: absolute;
     right: 0px;
@@ -275,7 +221,7 @@
   .nav .nav-btn label span {
     height: 10px;
     display: block;
-    border-top: 2px solid black;
+    border-top: 2px solid rgb(0, 0, 0);
   }
   .nav .nav-links {
     position: absolute;
@@ -283,7 +229,6 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.959);
     height: 0px;
-    -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 60px;
@@ -304,5 +249,4 @@
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

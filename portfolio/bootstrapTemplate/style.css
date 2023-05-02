@@ -1,6 +1,6 @@
 body::before {
   display: block;
-  content: '';
+  content: "";
   height: 60px;
 }
 
@@ -8,5 +8,4 @@ body::before {
   .news-input {
     width: 50%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

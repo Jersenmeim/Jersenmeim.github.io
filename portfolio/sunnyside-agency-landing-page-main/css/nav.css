@@ -1,83 +1,52 @@
 header .container {
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 4%;
 }
-
 header .container .logo {
   top: 25;
   left: 0;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-self: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 20px;
 }
-
 header .container .right {
   padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 header .container .right #nav-check {
   display: none;
 }
-
 header .container .right label span {
   display: none;
 }
-
 header .container .right .center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-right: 20px;
 }
-
 header .container .right .center li {
   list-style-type: none;
 }
-
 header .container .right .center li a {
   color: white;
   text-decoration: none;
   padding: 10px 20px;
-  font-family: 'burlow', sans-serif;
+  font-family: "burlow", sans-serif;
 }
-
 header .container .right .center li a:hover {
   background-color: white;
   color: black;
   padding: 10px 18px;
   border-radius: 20px;
   font-weight: bold;
-  -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
@@ -100,23 +69,13 @@ header .container .right .center li a:hover {
   }
   header .container .right .nav-links {
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 0px;
     left: 50%;
-    -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 100px;
@@ -125,13 +84,10 @@ header .container .right .center li a:hover {
     text-align: center;
   }
   header .container .right .nav-links .center {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
     width: 100%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 500px;
     left: 0%;
   }
@@ -139,15 +95,14 @@ header .container .right .center li a:hover {
     margin: 15px 0;
   }
   header .container .right .nav-links .center li a {
-    color: #25564b;
+    color: hsl(167, 40%, 24%);
   }
   header .container .right .nav-links .center li a:hover {
-    background-color: #fad400;
+    background-color: hsl(51, 100%, 49%);
     color: black;
     padding: 10px 20px;
     border-radius: 20px;
     font-weight: bold;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
   header .container .right #nav-check:not(:checked) ~ .nav-links {
@@ -157,5 +112,4 @@ header .container .right .center li a:hover {
     height: calc(40vh - 50px);
     overflow-x: hidden;
   }
-}
-/*# sourceMappingURL=nav.css.map */
+}/*# sourceMappingURL=nav.css.map */

@@ -121,7 +121,7 @@ main #education p:nth-of-type(2) {
 main #contact .other-info {
   display: flex;
   justify-content: left;
-  margin: 15 0;
+  margin-bottom: 100px;
 }
 main #contact .other-info p {
   padding: 10px;
@@ -135,6 +135,7 @@ main #contact .other-info p i {
 main #portfolio {
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;

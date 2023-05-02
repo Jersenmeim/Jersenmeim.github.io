@@ -160,7 +160,7 @@ $white-color: #fff;
            display: flex;
             justify-content: left;
             
-            margin: 15 0;
+            margin-bottom: 100px;
             p{
                 padding: 10px;
                 text-align: center;
@@ -178,6 +178,7 @@ $white-color: #fff;
     #portfolio{
             max-width: 1200px;
             margin: 0 auto;
+            margin-bottom: 100px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 1rem;
