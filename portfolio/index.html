@@ -1,77 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a Portfolio of Mr. Jersen Meim">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-    <meta name="author" content="Jersen Meim">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/app.js" type="module"></script>
+  <script src="js/particles.js" type="module"></script>
 </head>
-
 <body>
+  
+  
+  <main>
+    <section id="about"></section>
+    <section id="contact"></section>
+  </main>
+  
+  <footer>
+    <p>&copy; Jersen Meim | 2023</p>
+</footer>
 
-    <header id="navbar">
-        <div class="container">
-            <div class="logo">
-                <img src="images/logo.png" alt="logo">
-            </div>
-            <div class="right">
-                <input type="checkbox" id="nav-check">
-                <label for="nav-check">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <div class="nav-links">
-                    <div class="center">
-                        <li><a href="#cover">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <section class="cover" id="about">
-        <video autoplay muted loop id="myVideo">
-            <source src="images/skills.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
-        <div class="overlay"></div>
-
-    </section>
-
-    <section class="project" id="projects">
-        <div class="project-container"></div>
-    </section>
-
-    <section class="skill-container" id="skills">
-
-        <div id="skills" class="skills"></div>
-    </section>
-
-    <footer>
-        <p>&copy; Jersen Meim | 2023</p>
-        <a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
-    </footer>
-
-
-<script src="/portfolio/js/script.js" type="module"></script>
-<script src="js/script.js" type="module"></script>
-
-
-
+  
 </body>
-
 </html>

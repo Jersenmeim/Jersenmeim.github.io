@@ -1,0 +1,185 @@
+{
+    "personalinformation": 
+                [
+                    {
+                        "title": "Hi, I'm Jersen.",
+                        "description":"I'm a front-end developer with a passion for creating clean, modern, and responsive user interfaces. With experience in HTML, CSS, and JavaScript, I specialize in building dynamic websites and web applications that engage users and drive results. Take a look around my <a href=portfolio.html>Portfolio</a> to see some of my best work, and don't hesitate to get in touch if you have any questions or would like to discuss a project",
+                        "imgpath": "images/me.jpg"
+            
+                    }
+                ],
+
+    "contacts":     
+                [
+                    {
+                    "phone": "+639056588562",
+                    "email":"mailto: meimjersen@gmail.com",
+                    "LinkedIn":"https://www.linkedin.com/in/jersenmeim/",
+                    "Facebook":"https://www.facebook.com/DesignbyJersen",
+                    "behance":"https://www.behance.net/jersenmeim"
+                    }
+                ],
+
+    "education": [
+                    {
+                        "ed": {
+                            "degree": "Bachelor of Science in Applied Technology",
+                            "school": "Brigham Young University - Idaho",
+                            "certificates": [
+                              "Web Backend Development",
+                              "Web Frontend Development",
+                              "Computer Support Certificate",
+                              "BYU-Pathway Certificate",
+                              "Certified Client Pro Certificate TestOut Corporation",
+                              "Certified PC Pro Certificate TestOut Corporation",
+                              "JavaScript Tutorial Course at Sololearn"
+                            ]
+                          },
+                          "technicalSkills": {
+                            "languages": [
+                              "HTML5",
+                              "CSS3",
+                              "JavaScript",
+                              "jQuery"
+                            ],
+                            "tools": [
+                              "Adobe Illustrator",
+                              "Adobe Photoshop",
+                              "Adobe XD",
+                              "Node.js",
+                              "Bootstrap"
+                            ],
+                            "otherSkills": [
+                              "Responsive design",
+                              "Cross-browser compatibility",
+                              "Version control with Git and GitHub",
+                              "Web development best practices",
+                              "Web accessibility standards"
+                            ]
+                          },
+                          "softSkills": [
+                            "Excellent problem-solving skills and attention to detail",
+                            "Ability to work independently and in a team environment",
+                            "Strong verbal and written communication skills",
+                            "Time management and organization skills"
+                          ]
+                    
+                    
+                    }],
+           
+    "projects": [
+                    {
+                        "imgpath": "images/city.jpg",
+                        "alt": "touristspot",
+                        "description": "Collect information from individuals interested in becoming a driver.",
+                        "title":"City Driving landing Page",
+                        "link": "https://jersenmeim.github.io/portfolio/citydriving/",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/burj.jpg",
+                        "alt": "touristspot",
+                        "title": "Burj Khalifa Website",
+                        "description": " Burj Khalifa tourist spot, incorporating a map and an action button to book tickets",
+                        "link": "https://jersenmeim.github.io/portfolio/burjkhalifa_dubai/",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/first.jpg",
+                        "alt": "Bootstrap Template",
+                        "title": "Bootstrap Template",
+                        "description": "To showcase the power and flexibility of the Bootstrap framework",
+                        "link": "https://jersenmeim.github.io/portfolio/bootstrapTemplate/",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/image-transform.jpg",
+                        "alt": "Sunny Side Agency",
+                        "title": "Sunny Side Agency",
+                        "description": "Utilizing the power and flexibility of CSS Grid to achieve a modern and responsive design",
+                        "link": "https://jersenmeim.github.io/portfolio/sunnyside-agency-landing-page-main/",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/movie.jpg",
+                        "alt": "movie",
+                        "title": "Movie Management Application",
+                        "description": "A movie management system with Netflix-like functionality",
+                        "link": "https://moovapp.vercel.app/",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/css-garden.png",
+                        "alt": "css-garden.png",
+                        "title": "CSS Garden",
+                        "description": "a CSS Garden page to showcase your skills in advanced CSS techniques, such as flexbox, grid, and animations.",
+                        "link": "https://splucena.github.io/wdd331-zen-garden/src/zen-garden.html",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/apparel.jpg",
+                        "alt": "css-garden.png",
+                        "title": "Apparel Landing Page",
+                        "description":" A coming soon page for Base Apparel, a new clothing line, to generate excitement and anticipation among potential customers",
+                        "link": "https://jersenmeim.github.io/portfolio/base-apparel-coming-soon-master/",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/placeorder.jpg",
+                        "alt": "placeorder",
+                        "title": "Placeorder Application",
+                        "description": "Streamline your order-taking process and improve efficiency with this efficient app",
+                        "link": "https://jersenmeim.github.io/wdd330/project/index.html",
+                        "call": "View Project"
+                    },              
+                    {
+                        "imgpath": "images/drum.jpg",
+                        "alt": "drum",
+                        "title": "Drum Kit Application",
+                        "description": "To simulate the experience of playing a drum kit",
+                        "link": "https://jersenmeim.github.io/wdd330/week9/JSDrumKit/index-START.html",
+                        "call": "View Project"
+                    },               
+                    {
+                        "imgpath": "images/starwars.jpg",
+                        "alt": "starwars",
+                        "title": "Starwars API",
+                        "description": "to retrieve and display data from the StarWars API",
+                        "link": "https://jersenmeim.github.io/wdd330/week8/swapi/index.html",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/earthquake.jpg",
+                        "alt": "earthquake",
+                        "title": "Earthquake Application",
+                        "description": "To retrieve and display real-time data about earthquakes in your location",
+                        "link": "https://jersenmeim.github.io/wdd330/week10/team/index.html",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/net.jpg",
+                        "alt": "net",
+                        "title": ".NET Applications",
+                        "description": ".NET Applications Repository",
+                        "link": "https://github.com/Jersenmeim/CIT365-F2020-MeimJersen",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/php.jpg",
+                        "alt": "php",
+                        "title": "Car Management App | PHP repo",
+                        "description": "PHP Repository",
+                        "link": "https://github.com/Jersenmeim/cse340/tree/main/phpmotors",
+                        "call": "View Project"
+                    },
+                    {
+                        "imgpath": "images/java.jpg",
+                        "alt": "jave",
+                        "title": "Java Applications",
+                        "description": "Java Applications Repository",
+                        "link": "https://github.com/Jersenmeim/jersenmeim.github.io/tree/master/java_applications",
+                        "call": "View Project"
+                    }   
+                ]
+         
+}

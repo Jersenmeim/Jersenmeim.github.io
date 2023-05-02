@@ -1,3 +1,5 @@
+
+
 export function getfromLS(key) {
     return localStorage.getItem(key)
 }
