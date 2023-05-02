@@ -1,8 +1,13 @@
 import {
   getData,
   querySelector
+} from '/portfolio/js/utilities.js'
+/*
+import {
+  getData,
+  querySelector
 } from '/js/utilities.js'
-
+*/
 
 const main = querySelector('main');
 const about = querySelector('#about');
