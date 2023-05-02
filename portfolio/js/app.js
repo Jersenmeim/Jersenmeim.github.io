@@ -16,7 +16,7 @@ const contact = querySelector('#contact');
 const portfolio = querySelector('#portfolio');
 
 
-fetch('/data/info.json')
+fetch('https://jersenmeim.github.io/portfolio/data/info.json')
 .then(response => response.json())
 .then(data => {
 
