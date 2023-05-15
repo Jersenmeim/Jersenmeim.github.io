@@ -97,14 +97,14 @@ fetch('https://jersenmeim.github.io/portfolio/data/info.json')
                       <p>Education</p>
                     
                       <ul>
-                          <li><a href="/data/1214193_eDiploma.pdf" download>${item.ed.degree}</a></li>
-                          <li><a href="/data/552436_eDiploma.pdf" download>${item.ed.certificates[1]}</a></li>
-                          <li><a href="/data/784476_eDiploma.pdf" download>${item.ed.certificates[0]}</a></li>
-                          <li><a href="/data/1141675_eDiploma.pdf" download>${item.ed.certificates[2]}</a></li>
-                          <li><a href="/data/pathway.jpg" download>${item.ed.certificates[3]}</a></li>
-                          <li><a href="/data/certifiedclientpro.pdf" download>${item.ed.certificates[4]}</a></li>
-                          <li><a href="/data/PCPro.pdf" download>${item.ed.certificates[5]}</a></li>
-                          <li><a href="/data/JavaScript_Certificate.pdf" download>${item.ed.certificates[6]}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1bTCGN8AnA8Cgj7nsC3bMYotJtlI6DBGb/view?usp=share_link" >${item.ed.degree}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1jmy8wg8vjXcv-wXQO0YKu0zpW8t0SBll/view?usp=share_link" >${item.ed.certificates[1]}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1D7gJIPY3a8hmStRSmN9YHGEEgdiOkZwf/view?usp=share_link" >${item.ed.certificates[0]}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1ExFRoIpnm9ylQbQZBzJ_F4Np7EAdbMJt/view?usp=share_link" >${item.ed.certificates[2]}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1nJ7DApvJz4v6yCwUl2_Y5sOkyDTNOSc2/view?usp=share_link" >${item.ed.certificates[3]}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1-kZ0mNy2iJAlaNeQ1gSSmAPFBNRJaeCW/view?usp=share_link" >${item.ed.certificates[4]}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1DNxTMt4lZrjQnw1phlkGclPZ95xo2Cgk/view?usp=share_link" >${item.ed.certificates[5]}</a></li>
+                          <li><a href="https://drive.google.com/file/d/1VxfbCZjLukoRtQeXLeTe7y1ENp-0b_to/view?usp=share_link" >${item.ed.certificates[6]}</a></li>
                           
                       </ul>
 
