@@ -101,14 +101,7 @@
                         "link": "https://jersenmeim.github.io/portfolio/sunnyside-agency-landing-page-main/",
                         "call": "View Project"
                     },
-                    {
-                        "imgpath": "images/movie.jpg",
-                        "alt": "movie",
-                        "title": "Movie Management Application",
-                        "description": "A movie management system with Netflix-like functionality",
-                        "link": "https://moovapp.vercel.app/",
-                        "call": "View Project"
-                    },
+                   
                     {
                         "imgpath": "images/css-garden.png",
                         "alt": "css-garden.png",

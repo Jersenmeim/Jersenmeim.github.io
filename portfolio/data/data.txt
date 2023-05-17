@@ -1,0 +1,10 @@
+ /*
+                    {
+                        "imgpath": "images/movie.jpg",
+                        "alt": "movie",
+                        "title": "Movie Management Application",
+                        "description": "A movie management system with Netflix-like functionality",
+                        "link": "https://moovapp.vercel.app/",
+                        "call": "View Project"
+                    },
+                    */
